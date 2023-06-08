@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap');
 
+/*Paars #5722CD;*/
+/*Blauw #4845E4;*/
+/*Roze #ED4385;*/
+/*Zwart #0C0C0C (voor standaard tekst);*/
+/*Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") Uitzonderingen:*/
+/*                                                                                 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)*/
+/*Grijs #7A7A7A (voor de service-tegel tekst);*/
 
 /*////////////////////////
     Table of Contents
@@ -20,6 +28,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: 'Roboto', 'Comic Sans MS', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', 'Georgia', serif;
+}
+
+
 /* ------------------------------- 2. Typography ----------------------------------- */
 
 /* ------------------------------- 3. Layout --------------------------------------- */

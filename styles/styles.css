@@ -49,6 +49,53 @@ h1, h2, h3, h4, h5, h6 {
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
 /* --------------- 4.1 Header ------------------------- */
+header {
+    background: rgb(72, 69, 228);
+    background: linear-gradient(90deg, rgba(72, 69, 228, 1) 35%, rgba(87, 34, 205, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: auto;
+}
+
+.nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-basis: 100%;
+    border: 2px solid red;
+}
+
+.nav-bar-container .nav-link-container{
+    display: flex;
+    flex-direction: row;
+    width: 440px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    padding: 20px 40px;
+    border: 2px solid red;
+}
+
+header nav ul a:link {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul a:hover {
+    text-decoration: none;
+    color: azure;
+}
+
+.header-content {
+
+}
 
 /* --------------- 4.2 Introduction ------------------- */
 
